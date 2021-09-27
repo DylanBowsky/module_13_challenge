@@ -1,16 +1,16 @@
 # module_13_challenge
-# Ne 
-The goal for this financial notebook is to make a comprehensive way to segment our data. We do this by creating two ways to find our clusters one by the elbow curve and the other by using PCA method.
+# Neural Networks
+The goal for this financial notebook is to make a comprehensive model that can correctly find the patterns in the data provided from both Venture firms. We are using the base code and after to see if we can enhance using or own techniques to the model.
 -------------------------------------------------------------------------------------------------------------------------
 
 # Technologies Used
-We used Jupyter notebook, sklearn, pandas, hvplot, PCA, KMeans and StandarScaler.  
+We used Jupyter notebook, sklearn, pandas, Tesnorflow, Keras, Sequential, OneHotEncoder, Path and StandarScaler.  
 -------------------------------------------------------------------------------------------------------------------------
 
 # Installation
-We will need Pandas and import sklearn which gives the cluster building blocks.
+We will need to install Tensorflow *can be pip install* and imports from sklearn.
 -------------------------------------------------------------------------------------------------------------------------
 
 # Example
-For this notebook we grab a csv file convert it to a DataFrame. Once converted, we use the data inside to form our clusters first we grab the elbow curve to find the best KMeans cluster and then graph using hvplot. After we can go above and beyond using PCA to find the optimal cluster value, this can differ from the previous cluster guess we used. If it is different, that is okay due to the computer calculating it and we also some accuarcy. After both are graphed we can check to see what difference the clusters is.
+For these two notebooks we grabbed the base data from the CSV file given, and dropped the unwanted data. We cleaned the data up using OneHotEncoder trained and scaled the data. Once all of this is completed we ran the Sequential once with the base given and both hidden nodes in *relu* after that we thought of new ways to optimize the code to achieve a better accuarcy score. In some of the alternate models we got closer, but overall the base was the highest.
 -------------------------------------------------------------------------------------------------------------------------
